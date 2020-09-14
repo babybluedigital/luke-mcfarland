@@ -219,14 +219,13 @@
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			text-decoration: none;
+			text-decoration: bold;
 		}
 
 	h1 {
 		font-size: 1.85em;
 		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
-		border-bottom: 1px solid gray;
 	}
 
 	h2 {
@@ -267,12 +266,6 @@
 		font-size: 0.8em;
 		position: relative;
 		top: -0.5em;
-	}
-
-	hr {
-		border: 0;
-		border-bottom: solid 1px #c8cccf;
-		margin: 3em 0;
 	}
 
 /* Form */
@@ -1056,3 +1049,12 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+hr {
+  border:none;
+  border-top:1px solid;/* or bottom */
+  margin:1em auto; 
+  width:10em;
+  }
+.homebutton {
+	margin-top: 1em;
+}
