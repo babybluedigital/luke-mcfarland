@@ -1,4 +1,6 @@
 # luke-mcfarland
 Personal Portfolio Website for Luke Mcfarland
 
--<a href="lukemcfarland.com>lukemcfarland.com</a>
+https://www.lukemcfarland.com/
+
+Built in Github and deployed on Netlify
