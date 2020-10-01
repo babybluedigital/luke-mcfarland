@@ -1057,5 +1057,17 @@ hr {
   }
 .homebutton {
 	margin-top: 1em;
+}
 
+.btn-group button {
+  cursor: pointer; /* Pointer/hand icon */
+  width: 48% !important;
+  margin-top: 1px !important;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "" !important;
+  clear: both !important;
+  display: table !important;
 }
