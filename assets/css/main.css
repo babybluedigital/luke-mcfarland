@@ -1063,6 +1063,7 @@ hr {
   cursor: pointer; /* Pointer/hand icon */
   width: 48% !important;
   margin-top: 1px !important;
+  padding: 0px !important;
 }
 
 /* Clear floats (clearfix hack) */
@@ -1070,4 +1071,13 @@ hr {
   content: "" !important;
   clear: both !important;
   display: table !important;
+}
+
+@media screen and (max-width: 780px) {
+
+	.btn-group button {
+		width: 60% !important;	
+		margin-top: 3px !important;
+	}
+
 }
