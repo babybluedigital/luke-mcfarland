@@ -1096,10 +1096,15 @@ hr {
 
 #studytitle {
 	letter-spacing: 0.091em !important;
+	font-weight: 600;
 }
 
 #studysubdesc {
-	color: red;
+	color: rgb(255,81,81);
+}
+
+#studysubdesc em {
+	font-weight: 600;
 }
 
 #studymain .studyavatar {
