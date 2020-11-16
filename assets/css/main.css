@@ -1208,3 +1208,12 @@ hr {
 		transform: rotateX(15deg);
 		opacity: 0;
 	}
+
+/* Awesome Table */
+
+@media screen and (max-width: 480px) {
+
+	#awesometable {
+		height: 100px;
+	}
+}
