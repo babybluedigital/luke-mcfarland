@@ -1211,9 +1211,9 @@ hr {
 
 /* Awesome Table */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
 	#awesometable {
-		height: 620px;
+		height: 1000px;
 	}
 }
