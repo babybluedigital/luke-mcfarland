@@ -1100,7 +1100,8 @@ hr {
 }
 
 #studysubdesc {
-	color: #52585c;
+	color: rgb(255,81,81,0.8);
+	letter-spacing: 0.07em !important;
 }
 
 #studysubdesc em {
