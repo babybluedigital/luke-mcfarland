@@ -1104,6 +1104,10 @@ hr {
 	letter-spacing: 0.07em !important;
 }
 
+#studysubdesc p {
+    margin: 0 0 0.5em 0;
+}
+
 #studysubdesc em {
 	font-weight: 600;
 }
