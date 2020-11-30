@@ -1235,3 +1235,80 @@ hr {
 		height: 1200px;
 	}
 }
+
+/* Social Media Icons */
+
+	.socialicons {
+		margin-top: 1em !important;
+		margin-bottom: 0em !important;
+	}
+
+	ul.socialicons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+		margin-top: -0.675em;
+	}
+
+		ul.socialicons li {
+			display: inline-block;
+			padding: 0.675em 0.5em;
+		}
+
+			ul.socialicons li a {
+				text-decoration: none;
+				position: relative;
+				display: block;
+				width: 3em;
+				height: 3em;
+				border-radius: 100%;
+				border: solid 1px #c8cccf;
+				line-height: 3em;
+				overflow: hidden;
+				text-align: center;
+				text-indent: 3em;
+				white-space: nowrap;
+			}
+
+				ul.socialicons li a:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					text-transform: none !important;
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 100;
+				}
+
+				ul.socialicons li a:before {
+					color: #ffffff;
+				}
+
+				ul.socialicons li a:before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: inherit;
+					height: inherit;
+					font-size: 1.4rem;
+					line-height: inherit;
+					text-align: center;
+					text-indent: 0;
+				}
+
+				ul.socialicons li a:hover {
+					border-color: #ff6392;
+					transform: scale(1.3);
+					transition: all .2s ease-in-out;
+				}
+
+		@media screen and (max-width: 480px) {
+
+			ul.socialicons li a:before {
+				font-size: 1rem;
+			}
+
+		}
